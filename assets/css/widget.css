@@ -1,0 +1,58 @@
+/* Testimonial Card widget — front-end styles */
+
+.ews-testimonial {
+	border-radius: 12px;
+	padding: 28px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+	border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.ews-layout-quote .ews-review {
+	font-size: 1.5em;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+.ews-stars {
+	color: #f5a623;
+	font-size: 1.1em;
+	letter-spacing: 2px;
+	margin-bottom: 12px;
+}
+
+.ews-review {
+	margin: 0 0 20px;
+	line-height: 1.7;
+}
+
+.ews-author {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.ews-testimonial[style*="text-align: center"] .ews-author,
+.ews-layout-quote .ews-author {
+	justify-content: center;
+}
+
+.ews-avatar {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.ews-author-meta {
+	display: flex;
+	flex-direction: column;
+}
+
+.ews-name {
+	font-weight: 700;
+}
+
+.ews-role {
+	font-size: 0.9em;
+	opacity: 0.7;
+}
